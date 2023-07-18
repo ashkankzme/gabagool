@@ -1,4 +1,5 @@
 import random
+from collections import Counter
 
 
 def primesbelow(N):
@@ -161,4 +162,4 @@ def lcm(a, b):
 
 # insert a main function that tests the functionality
 if __name__ == '__main__':
-    print(primefactors(45454541056465466546540))
+    print(Counter(primefactors(45454374982734987289479827398472398472983746465466546540)))
